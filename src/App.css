@@ -1,0 +1,23 @@
+.dropdown-meun.active{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+
+}
+
+.dropdown-meun.inactive{
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: var(--speed) ease;
+}
+
+.drop.active{
+  background-color: rgb(40,42,53);
+  color: #fff;
+}
+
+.drop.inactive:hover{
+  background-color: rgb(4,170,109);
+  color: #fff;
+}
